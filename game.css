@@ -1,0 +1,118 @@
+ body{
+    background-image: url(nature\ image.jpg);
+    font-family:Arial,sans-serif;
+    background-color:#f4f4f4;
+    text-align:center;
+    padding: 20px;
+}
+h1{
+    color:#333;
+    font-size:36px;
+    font-style:italic;
+    font-display:block;
+
+}
+.game{
+    display:inline-block;
+    padding:20px;
+    border:2px solid #333;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.box {
+  width: 80px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #eee;
+  border: 2px solid #444;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box:hover {
+  background-color: #ddd;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.grid input[type="box"]{
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #eee;
+    border: 2px solid #444;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.grid1 input[type="box"]{
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #eee;
+    border: 2px solid #444;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.grid2 input[type="box"]{
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #eee;
+    border: 2px solid #444;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.grid input[type="box"]:hover{
+    background-color: #ddd;
+}
+.controls{
+    margin-bottom: 15px;
+}
+.controls button{
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 6px;
+    background-color:#007bff;
+    color: white;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+.controls button:hover{
+    background-color:#0056b3;
+}
+.status{
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
